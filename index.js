@@ -1,6 +1,6 @@
 function getFizzBuzz(num) {
   let result = [];
-  for (var i=1, i<=num; i++) {
+  for (var i=1; i<=num; i++) {
     if (i%15===0) {
       result.push('fizzbuzz');
     }
